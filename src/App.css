@@ -1,38 +1,488 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+a{
+  margin: 0;
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.app {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #333333;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* topheader ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+.topheader-box{
+  width: 100vw;
+  height: 5.5vh;
+  background-color: #2B2828;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topheader-box-left img{
+  margin: auto 30px;
+  width: 250px;
+}
+
+
+.topheader-li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.topheader-li ul{
+  border-right: 1px solid #B1B1B1 ;
+  padding-right: 50px;
+}
+
+.topheader-li ul:last-child{
+  border-right: none;
+}
+
+.topheader-li ul a{
+  font-family: dnf;
+  color: #ffffff;
+}
+  
+.topheader-li ul a:hover{
+  color: var(--color-gold);
+}
+/* badge ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+.badge{
+  position: relative;
+}
+
+
+/* .badge-box{
+  opacity: 0;
+  transition:1s;
+} */
+
+/* .badge-boxani{
+
+} */
+
+.badge-badgeimg{
+  position: fixed;
+  top: 5rem;
+  right: 2rem;
+  z-index: 10;
+  width: 10vw;
+  opacity: 0;
+  transition:1s;
+}
+.badge-close{
+  position: fixed;
+  top: 5rem;
+  right: 2rem;
+  z-index: 10;
+  width: 1.5vw;
+  opacity: 0;
+  transition:1s;
+}
+.badge-badgeimg-ani{
+  position: fixed;
+  top: 5rem;
+  right: 2rem;
+  z-index: 10;
+  width: 10vw;
+  opacity: 1;
+  transition:1s;
+}
+.badge-close-ani{
+  position: fixed;
+  top: 5rem;
+  right: 2rem;
+  z-index: 10;
+  width: 1.5vw;
+  opacity: 1;
+  transition:1s;
+}
+/* topYoutube ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+.youtube{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.youtube-cover{
+  background-color: #00000099;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: absolute;
+}
+
+
+video{
+  object-fit: cover;
+}
+
+.topYoutube-logo img{
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 0%;
+  width: 30%;
+  height: 30%;
+
+}
+
+/* worldview ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+.worldview{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../public/assets/main2.jpg");
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.worldview-blur {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+
+.worldview-box{
+  margin: 1% 3%;
+}
+
+.worldview-topname {
+  margin: 2% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: dnf;
+  font-size: 100px;
+  font-weight: bold;
+  height: 150px;
+  color: #8b8b8b;
+  position: relative; 
+  background-image: url(../public/assets/simbol1.png);
+  background-size: 150px 150px;
+  background-repeat:no-repeat ;
+  background-position: center center;
+  overflow:visible;
+}
+
+
+.worldview-img img {
+  overflow: visible;
+  width: 30vw;
+  height: 35vh;
+  transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;;
+  margin-top: 100px;
+}
+
+.worldview-img.not.active img{
+  transform: scale(0.9);
+  margin: 0;
+  margin-top: 70px;
+}
+
+.worldview-img.active img{
+  transform: scale(1.3);
+  margin: 0 0 80px 0;
+  margin-top: 70px;
+}
+
+.worldview-img.active img:hover{
+  transform: scale(1.4);
+}
+.worldview-img.not.active img:hover{
+  transform: scale(1.0);
+}
+
+.worldview-maintext{
+  margin: auto;
+  text-align: center;
+  background-size: cover;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: dnf;
+  color: #ffffff;
+}
+.worldview-text{
+  font-family: YeonSung;
+  color: var(--color-gold);
+  font-size: 1.6rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+
+/* MidClass ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+.MidClass{
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+
+.MidClass-TopName {
+  margin: 2% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: dnf;
+  font-size: 120px;
+  font-weight: bold;
+  height: 150px;
+  color: var(--color-gold);
+  position: relative; 
+  background-image: url(../public/assets/simbol1.png);
+  background-size: 150px 150px;
+  background-repeat:no-repeat ;
+  background-position: center center;
+  overflow:visible
+}
+
+
+.MidClass-CharList{
+  display: flex;
+  margin: auto 3rem;
+
+}
+.job-Box-img {
+  width: 200px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.MidClass-background{
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  
+}
+
+.job-BigBox{
+  margin: 0 10px;
+}
+.job-Box-imgBox{
+  text-align: center;
+}
+
+.job-Box-name{
+  margin-top: 1rem;
+  text-align: center;
+  font-family: dnf;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.job-Box-img:hover{
+  transform: scale(1.2);
+  transition:  0.5s;
+  margin-bottom: 50px;
+}
+
+.job-Box-text{
+  margin-top: 1rem;
+  text-align: center;
+  font-family: dnf;
+  color: var(--color-gold);
+}
+
+/* 
+이런식으로 선택
+.job-Box-imgBox-char-3 img{
+  width: 800px;
+  height: 600px;
+  object-fit: cover;
+} */
+
+/* News ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+.News{
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../public/assets/ingame2.jpg');
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.News-blur {
+  background-color: rgba(0, 0, 0, 0.712);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.News-topname {
+  margin: 2% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: dnf;
+  font-size: 70px;
+  font-weight: bold;
+  height: 150px;
+  color: #fff;
+  position: relative; 
+  background-image: url(../public/assets/simbol1.png);
+  background-size: 150px 150px;
+  background-repeat:no-repeat ;
+  background-position: center center;
+  overflow:visible
+}
+
+.News-topname div{
+  margin: auto;
+  
+}
+
+.News-Box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.News-box-Left{
+  margin: 0;
+  width: 55%;
+
+}
+
+.News-box-Left-title{
+  text-align: center;
+  font-family: Inspiration;
+  color: #fff;
+  font-size: 100px;
+  margin-bottom: 50px;
+}
+
+.News-box-Left-YouTube{
+  align-items: center;
+  margin: auto;
+  text-align: center;
+
+}
+
+.News-box-Right{
+  margin: auto;
+  width: 45%;
+  
+}
+
+.News-box-Right-title{
+  text-align: center;
+  font-family: Inspiration;
+  color: #fff;
+  font-size: 70px;
+  margin-bottom: 50px;
+
+}
+
+.News-box-Right-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+/* 뉴스 map 배열 안에 css */
+.Newstdata-BigBox{
+  display: flex;
+  flex-direction: column;
+}
+.Newstdata-SmallBox {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+}
+.Newstdata-Box-img img{
+  width: 304px;
+  height: 171px;
+}
+.Newstdata-Box-text{
+  margin: 1rem 0;
+}
+.Newstdata-Box-text a{
+  margin: 3rem 0;
+  font-weight: bold;
+  color: var(--color-gold);
+}
+/* Footer ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+.Footer{
+  width: 100vw;
+  height: 30vh;
+  background-color: #262626;
+  position: relative;
+  overflow: hidden;
+  font-family: dnf;
+  color: #7f7e7e;
+  font-size: 12px;
+}
+
+.Footer-div1{
+  margin-top: 2rem;
+}
+
+.Footer-div2{
+  margin-top: 3rem;
+  
+}
+
+.Footer-li2{
+
+}
+.Footer li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Footer li ul{
+  border-right: 2px solid rgb(104, 104, 104);
+  padding-right: 50px;
+  margin: 0.2rem 0;
+}
+
+.Footer ul:last-child{
+  border-right: none;
+}
+
+.Footer ul a{
+  font-family: dnf;
+  color: #7f7e7e;
+}
+  
+.Footer ul a:hover{
+  color: var(--color-gold);
+}
+
+.Footer-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  text-align: center;
+  object-fit: cover;
+}
+
+.Footer-img img{
+  width: 200px;
+  margin: 0 2rem;
 }
