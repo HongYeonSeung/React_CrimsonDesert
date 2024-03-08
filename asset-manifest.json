@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/HongYeonSeung/React_CrimsonDesert/static/css/main.3561bc56.css",
-    "main.js": "/HongYeonSeung/React_CrimsonDesert/static/js/main.7161dd13.js",
-    "static/js/453.ed3810f9.chunk.js": "/HongYeonSeung/React_CrimsonDesert/static/js/453.ed3810f9.chunk.js",
-    "static/media/DNFForgedBlade-Bold.ttf": "/HongYeonSeung/React_CrimsonDesert/static/media/DNFForgedBlade-Bold.a47cf93566c4c522bec9.ttf",
-    "static/media/NanumBrushScript-Regular.ttf": "/HongYeonSeung/React_CrimsonDesert/static/media/NanumBrushScript-Regular.889e08baf23739dad1f3.ttf",
-    "static/media/YeonSung-Regular.ttf": "/HongYeonSeung/React_CrimsonDesert/static/media/YeonSung-Regular.7ed1d94edc5aa5a9e78a.ttf",
-    "static/media/GrandifloraOne-Regular.ttf": "/HongYeonSeung/React_CrimsonDesert/static/media/GrandifloraOne-Regular.f97561ac0d1af0410867.ttf",
-    "static/media/Jua-Regular.ttf": "/HongYeonSeung/React_CrimsonDesert/static/media/Jua-Regular.bb8909a47f60980f5988.ttf",
-    "static/media/Maplestory Bold.ttf": "/HongYeonSeung/React_CrimsonDesert/static/media/Maplestory Bold.e39287220e971b277c0e.ttf",
-    "static/media/main2.jpg": "/HongYeonSeung/React_CrimsonDesert/static/media/main2.2b270228bc7f646ea504.jpg",
-    "static/media/ingame2.jpg": "/HongYeonSeung/React_CrimsonDesert/static/media/ingame2.13e6dd87a3a5f4478d98.jpg",
-    "static/media/simbol1.png": "/HongYeonSeung/React_CrimsonDesert/static/media/simbol1.171a641dcd308ebb3aff.png",
-    "static/media/Inspiration-Regular.ttf": "/HongYeonSeung/React_CrimsonDesert/static/media/Inspiration-Regular.7cafc0c4b4942c49eb9e.ttf",
-    "index.html": "/HongYeonSeung/React_CrimsonDesert/index.html",
-    "main.3561bc56.css.map": "/HongYeonSeung/React_CrimsonDesert/static/css/main.3561bc56.css.map",
-    "main.7161dd13.js.map": "/HongYeonSeung/React_CrimsonDesert/static/js/main.7161dd13.js.map",
-    "453.ed3810f9.chunk.js.map": "/HongYeonSeung/React_CrimsonDesert/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/React_CrimsonDesert/static/css/main.bbd5ca49.css",
+    "main.js": "/React_CrimsonDesert/static/js/main.e3bf9b90.js",
+    "static/js/453.ed3810f9.chunk.js": "/React_CrimsonDesert/static/js/453.ed3810f9.chunk.js",
+    "static/media/DNFForgedBlade-Bold.ttf": "/React_CrimsonDesert/static/media/DNFForgedBlade-Bold.a47cf93566c4c522bec9.ttf",
+    "static/media/NanumBrushScript-Regular.ttf": "/React_CrimsonDesert/static/media/NanumBrushScript-Regular.889e08baf23739dad1f3.ttf",
+    "static/media/YeonSung-Regular.ttf": "/React_CrimsonDesert/static/media/YeonSung-Regular.7ed1d94edc5aa5a9e78a.ttf",
+    "static/media/GrandifloraOne-Regular.ttf": "/React_CrimsonDesert/static/media/GrandifloraOne-Regular.f97561ac0d1af0410867.ttf",
+    "static/media/Jua-Regular.ttf": "/React_CrimsonDesert/static/media/Jua-Regular.bb8909a47f60980f5988.ttf",
+    "static/media/Maplestory Bold.ttf": "/React_CrimsonDesert/static/media/Maplestory Bold.e39287220e971b277c0e.ttf",
+    "static/media/main2.jpg": "/React_CrimsonDesert/static/media/main2.2b270228bc7f646ea504.jpg",
+    "static/media/ingame2.jpg": "/React_CrimsonDesert/static/media/ingame2.13e6dd87a3a5f4478d98.jpg",
+    "static/media/simbol1.png": "/React_CrimsonDesert/static/media/simbol1.171a641dcd308ebb3aff.png",
+    "static/media/Inspiration-Regular.ttf": "/React_CrimsonDesert/static/media/Inspiration-Regular.7cafc0c4b4942c49eb9e.ttf",
+    "index.html": "/React_CrimsonDesert/index.html",
+    "main.bbd5ca49.css.map": "/React_CrimsonDesert/static/css/main.bbd5ca49.css.map",
+    "main.e3bf9b90.js.map": "/React_CrimsonDesert/static/js/main.e3bf9b90.js.map",
+    "453.ed3810f9.chunk.js.map": "/React_CrimsonDesert/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3561bc56.css",
-    "static/js/main.7161dd13.js"
+    "static/css/main.bbd5ca49.css",
+    "static/js/main.e3bf9b90.js"
   ]
 }
