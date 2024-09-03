@@ -2,7 +2,7 @@
 
 이 프로젝트는 **React**를 사용하여 만든 **붉은사막** 게임 웹사이트의 목업입니다. 이 웹사이트는 게임의 특징, 뉴스, 세계관 등을 소개하며 부드러운 애니메이션을 사용한것이 특징인 웹 사이트입니다.
 
-## 🌐 [배포 링크](https://hongyeonseung.github.io/React_CrimsonDesert)
+## 🌐 [라이브 데모](https://hongyeonseung.github.io/React_CrimsonDesert)
 
 ## 주요 기능
 
